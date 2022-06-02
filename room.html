@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/room.css" rel="stylesheet">
+	<link href="css/media-screen.css" rel="stylesheet">
+	<title>Центральная Избирательная Комиссия - комната голосования</title>
+</head>
+<body>
+
+<div class="wrapper">
+ 	<header class="header">
+ 		<div class="container">
+ 			<div class="header__body">
+ 				<a href="index.html" class="header__logo">
+ 					<img src="./images/logo.png" alt="Портал тайного голосования для малых и средних организаций">Портал тайного голосования для малых и средних организаций</a>
+
+ 					<div class="header__boorger">
+ 						<span></span>
+ 					</div>
+ 					<nav class="header__menu">
+ 						<ul class="header__list">
+							<div class="header__login_1"><a href="index.html"><img src="./images/logo.png"></div></a>
+ 							<li> <a href="cec.html" class="header__link">ЦИК</a></li>
+ 							<li><a href="table.html" class="header__link">Стол бюллетеней</a></li>
+ 								<li> <a href="room.html" class="header__link">Комната голосования</a></li>
+ 								<div class="header__login"><img src="./images/personal_area.png"></div>
+ 						</ul>
+
+ 					</nav>
+ 			</div>
+ 		</div>
+ 	</header>
+</div>
+
+<div class="container_offer_room">
+	<div class="form-login-room">
+		
+		<form action="check.php" method="post" name="test" id="form">
+			<img src="images/personal_area.png" width="50" height="50">
+		    <input type="text" name="name" placeholder="Логин организации" id="login"> </br ></br >
+		    <input type="text" name="choice" placeholder="Название выборов" id="choice"> </br ></br >
+		    <input type="button" name="submit" value="Войти">
+		</form>
+	</div>
+
+</div>
+
+
+<div class="container_table">
+<div class="container_chapter_under_bottom_offer">
+		<h1>Таблица текущего результата голосования</h1>
+	<div>
+
+	<table class="blueTable">
+		<thead>
+			<tr>
+				<th>Позиции</th>
+				<th>Число голосов</th>
+				<th>Список БН</th>
+			</tr>
+		</thead>
+	<tfoot>
+		<tr>
+			<td colspan="3">
+				<div class="links"><a href="#"><</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3 </a> <a href="#"> > </a>
+				</div>
+			</td>
+		</tr>
+	</tfoot>
+		<tbody>
+			<tr>
+				<td>cell1_1</td>
+				<td>cell2_1</td>
+				<td>cell3_1</td>
+			</tr>
+			<tr>
+				<td>cell1_2</td>
+				<td>cell2_2</td>
+				<td>cell3_2</td>
+			</tr>
+			<tr>
+				<td>cell1_3</td>
+				<td>cell2_3</td>
+				<td>cell3_3</td>
+			</tr>
+			<tr>
+				<td>cell1_4</td>
+				<td>cell2_4</td>
+				<td>cell3_4</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+
+<div class="btns_table">
+	<div class="first_btn_table">
+		<a href="#">Загрузить</a>
+	</div>
+	<div class="first_btn_table">
+		<a href="#">Скачать</a>
+	</div>
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./js/common.js"></script></script>
+</body>
+</html>

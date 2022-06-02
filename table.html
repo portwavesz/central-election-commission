@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/table.css" rel="stylesheet">
+	<link href="css/media-screen.css" rel="stylesheet">
+	<title>Центральная Избирательная Комиссия - Стол бюллетеней</title>
+</head>
+<body>
+
+
+<div class="wrapper">
+ 	<header class="header">
+ 		<div class="container">
+ 			<div class="header__body">
+ 				<a href="index.html" class="header__logo">
+ 					<img src="./images/logo.png" alt="Портал тайного голосования для малых и средних организаций">Портал тайного голосования для малых и средних организаций</a>
+
+ 					<div class="header__boorger">
+ 						<span></span>
+ 					</div>
+ 					<nav class="header__menu">
+ 						<ul class="header__list">
+							<div class="header__login_1"><a href="index.html"><img src="./images/logo.png"></div></a>
+ 							<li> <a href="cec.html" class="header__link">ЦИК</a></li>
+ 							<li><a href="table.html" class="header__link">Стол бюллетеней</a></li>
+ 								<li> <a href="room.html" class="header__link">Комната голосования</a></li>
+ 								<div class="header__login"><img src="./images/personal_area.png"></div>
+ 						</ul>
+
+ 					</nav>
+ 			</div>
+ 		</div>
+ 	</header>
+</div>
+
+
+<div class="container_offer_table">
+	<div class="form-login-table">
+		
+		<form action="check.php" method="post" name="test" id="form">
+			<img src="images/personal_area.png" width="50" height="50">
+		    <input type="text" name="name" placeholder="Логин организации" id="login"> </br ></br >
+		    <input type="text" name="choice" placeholder="Название выборов" id="choice"> </br ></br >
+		    <input type="text" name="id" placeholder="ID" id="id"> </br ></br >
+		    <input type="text" name="reid" placeholder="Повторите ID" id="reid"> </br ></br >
+
+		    <input type="button" name="submit" value="Скачать">
+		</form>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./js/common.js"></script></script>
+</body>
+</html>

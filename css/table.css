@@ -1,0 +1,79 @@
+    body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.container_offer_table{
+    margin-top:  150px;
+    background-image: url("../images/table_background.png");
+    width: 100%;
+    background-color: #f4f4fb;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size: no-cover;
+    text-align: center;
+    background-position: center;
+}
+
+.form-login-table{
+    text-align:  center;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.form-login-table form{
+    text-align:  center;
+    background-color:  #F7F9FE;
+    width:  350px;
+    Height: 439px;
+    border: 2px solid #3D426E;
+    box-sizing: border-box; 
+    border-radius: 30px;
+    margin: auto;
+}
+
+.form-login-table form input[type="button"]{
+    background: #293284;
+    border-radius: 20px;
+    color:  white;
+    font-family: Mplus1p-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    Width: 300px;
+    Height: 42px;
+}
+
+.form-login-table form input[type="text"]{
+    background: #FFFFFF;
+    border: 1px solid #3D426E;
+    box-sizing: border-box;
+    border-radius: 20px;
+    Width: 300px ; 
+    Height: 42px;
+}
+
+.form-login-table form input[placeholder]{
+    padding-left: 15px;
+    color:  black;
+    padding-top: 1%;
+}
+
+.form-login-table form img{
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+@media (max-width: 1050px){
+.container_offer_table{
+    margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 650px){
+.form-login-table form{
+    margin-top: 20px;
+    }
+}
